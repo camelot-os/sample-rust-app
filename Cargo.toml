@@ -1,0 +1,14 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+lto = true
+opt-level = "s"
+
+[dependencies]
+shield = "0.1"
+
+[build-dependencies]
+camelot_metadata =  "0.1"
