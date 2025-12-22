@@ -9,7 +9,7 @@ opt-level = "s"
 
 [dependencies]
 shield = "0.1"
-sentry-uapi="0.4.1"
+sentry-uapi="0.4.2"
 
 [build-dependencies]
 camelot_metadata =  "0.1"
